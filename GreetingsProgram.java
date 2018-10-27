@@ -1,8 +1,8 @@
 public class GreetingsProgram {
-  public static void main(String...args){
-    String name = args[0];
+  public static void main(String...arguments) {
+    String name = arguments[0];
     String greeting = "Hello, ";
-    String GreetByName = greeting + name;
-    System.out.println(GreetByName);
+    String greetByName = greeting + name;
+    System.out.println(greetByName);
   }
 }
